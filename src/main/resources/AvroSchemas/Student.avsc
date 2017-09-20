@@ -1,0 +1,10 @@
+{
+    "namespace": "generated.studentModels",
+    "type": "record",
+    "name": "Student",
+    "fields": [
+        {"name": "student_id", "type": "int" },
+        {"name": "first_name",  "type": "string"},
+        {"name": "last_name", "type": ["string", "null"]}
+    ]
+}
